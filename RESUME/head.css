@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.name {
+    display: flex;
+    font-family: Ubuntu;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 500%;
+    border-left: 2px solid rgb(69, 68, 68);
+    /* Adjust line color and width as needed */
+}
+
+.box{
+display: flex;
+}
+.dp{
+    display: flex;
+    margin: 0%;
+}
+.fn{
+    display: flex;
+margin: 0%;
+}
+.sn{
+    display: flex;
+    width: 118px;
+margin: 0%;
+}
+
+.fn{
+    display: flex;
+width: 118px;}
+.dn{
+    flex-direction: column;
+}
+.name h5{
+    margin: 0%;
+}
+.imgnnam{
+    flex-direction: row;
+}

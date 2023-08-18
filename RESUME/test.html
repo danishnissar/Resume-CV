@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="dp">
+            <img src="photo.jpg">
+        </div>
+
+        <div class="nam">
+            <h1 style="margin: 0%;">DANISH</h1>
+            <h1 style="margin: 0%;">NISSAR</h1>
+            <h5 style="margin: 0%;">CSE Student</h5>
+        </div>
+    </div>
+
+    <hr style="width: 60%;margin-bottom: 0%; margin-left: 0%; 
+                 background-color: rgb(10, 111, 219); ">
+    <div class="vertical-line"></div>
+
+    <div class="full">
+        <div class="left">
+
+            <div class="det">
+                <h2 style="margin: 0%; color: rgb(17, 61, 149); margin-top: 2%;">DETAILS</h2>
+                <hr class="uln" style="width: 40%; margin: 0%; margin-bottom: 
+                 10px; background-color: grey; height: 2px;">
+            </div>
+            <div class="adr">
+                <div class="adr1">
+                    <h4 style="margin: 0%;">ADDRESS</h4>
+                    <p style="margin: 0%; margin-bottom: 
+                     10px;">Bangalore,India</p>
+                </div>
+                <div class="adr2">
+                    <h4>PHONE</h4>
+                    <p style="width: 122px;margin-bottom: 10px; margin-left: 0%;">+91 9541328408</p>
+                </div>
+                <div class="adr3">
+                    <h4>Email</h4>
+                    <p style="width: 16%; margin-bottom: 
+                         10px; margin-left: 0%;">danishnissar1@gmail.com</p>
+                </div>
+                <div class="adr4">
+                    <h4>NATIONALITY</h4>
+                    <p style="width: 15%; margin-bottom: 
+                         10px; margin-left: 0%;">Indian</p>
+                </div>
+
+            </div>
+
+            <div class="skill">
+                <div class="skill1">
+                    <h1 style="margin-top: 30px; color: rgb(17, 61, 149);">SKILLS</h1>
+                    <hr class="uln" style="width: 40%; margin: 0%; margin-bottom: 
+                 10px; background-color: grey; height: 2px;">
+
+                </div>
+
+                <div class="skill1">
+                    <p>HTML/CSS</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+                <div class="skill1">
+                    <p>JavaScript</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+                <div class="skill1">
+                    <p>JAVA</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+                <div class="skill1">
+                    <p>SQL</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+                <div class="skill1">
+                    <p style="width: 110px;">Data Structure</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+                <div class="skill1">
+                    <p>React JS</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+                <div class="skill1">
+                    <p>Node JS</p>
+                    <input type="range" min="1" max="10" value="50" class="slider" id="myRange">
+                </div>
+
+                <div class="lang">
+                    <div>
+                        <h1 style="margin-top: 30px; width: 180px; color: rgb(17, 61, 149);">LANGUAGES</h1>
+                        <hr style="width: 80%; margin: 0%; margin-bottom: 
+                    10px; background-color: grey; height: 2px;">
+                    </div>
+
+
+
+                    <div class="lang1">
+                        <p>English</p>
+                        <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                    </div>
+                    <div class="lang1">
+                        <p>Urdu</p>
+                        <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                    </div>
+                    <div class="lang1">
+                        <p>Hindi</p>
+                        <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                    </div>
+                    <div class="lang1">
+                        <p>Arabic</p>
+                        <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                    </div>
+                </div>
+                <div class="lang">
+                    <div>
+                        <h1 style="margin-top: 30px; width: 180px; color: rgb(17, 61, 149);">Non-Technical Achievements
+                        </h1>
+                        <hr style="width: 90%; margin: 0%; margin-bottom: 
+                    10px; background-color: grey; height: 2px;">
+                    </div>
+
+
+
+                    <div class="lang1">
+                        <p style="width: 100%;margin-bottom: 10px; color: rgb(177, 148, 19);">1st in cricket
+                            inter-college(2022)</p>
+                    </div>
+                    <div class="lang1">
+                        <p style="width: 100%;margin-bottom: 10px; color: rgb(177, 148, 19);">1st in March-past(2017)
+                        </p>
+                    </div>
+                    <div class="lang1">
+                        <p style="width: 100%;margin-bottom: 10px; color: rgb(177, 148, 19);">5th position in
+                            painting(2016)</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right" style="margin-left: 50px;">
+            <div class="education">
+                <div>
+                    <h1 style="margin-bottom: 0px; margin-top: 0%; color: rgb(17, 61, 149);">EDUCATION</h1>
+                    <hr style="width: 33%; margin: 0%; margin-left: 21%; margin-bottom: 
+                    10px; background-color: grey; height: 2px;">
+                </div>
+
+                <div class="edu1">
+                    <h3 style="color: rgb(177, 148, 19);">BE Computer Science</h3>
+                    <p>2021-current</p>
+                    <h3 style="margin-bottom: 20px;">HKBK College Of Engineering</h3>
+                </div>
+                <div class="edu1">
+                    <h3 style="color: rgb(177, 148, 19);">Secondary Education</h3>
+                    <p>2017-2019</p>
+                    <h3 style="margin-bottom: 30px;">NM Boys Hr. Sec School</h3>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj1">
+                    <h1 style="margin-bottom: 0px; margin-top: 0%; color: rgb(17, 61, 149);">PROJECTS</h1>
+                    <hr style="width: 29%; margin: 0%; margin-left: 21%; margin-bottom: 
+                    10px; background-color: grey; height: 2px;">
+             
+                </div>
+                <div class="proj1">
+                    <h3 style="color: rgb(177, 148, 19);">DELISH</h3>
+                    <p>2022/10 - 2022/12</p>
+                    <h3 style="margin-bottom: 0px;">Food Delivery Website</h3>
+                    <p style="margin-bottom: 20px;">HTML,CSS,JavaScript,PHP,SQL</p>
+                </div>
+                <div class="proj1">
+                    <h3 style="color: rgb(177, 148, 19);">BUILD SURE</h3>
+                    <p>2023/06 - 2023/07</p>
+                    <h3 style="margin-bottom: 0%;">Construction Material Deliviery Website</h3>
+                    <p style="margin-bottom: 20px;">HTML/CSS/JavaScript</p>
+                </div>
+                <div class="proj1">
+                    <h3 style="color: rgb(177, 148, 19);">C.O.M/M.O.I</h3>
+                    <p>2020/06 - 2020/07</p>
+                    <h3 style="margin-bottom: 0px;">Find Center Of Mass/Moment Of Inertia</h3>
+                    <p style="margin-bottom:20px ;">Java, C++, Python</p>
+                </div>
+                <div class="proj1">
+                    <h3 style="color: rgb(177, 148, 19);">Resume Template</h3>
+                    <p style="margin-bottom: 0%;">2023/08 - 2023/08</p>
+                    <h6 style="margin-bottom: 0px; margin-top: 0px;">This uploaded resume is created by using my project </h6>
+                    <p style="margin-bottom:20px ;">Java, C++, Python</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="proj1">
+                    <h1 style="margin-bottom: 0px; margin-top: 0%; color: rgb(17, 61, 149);">CERTIFICATION</h1>
+                    <hr style="width: 42%; margin: 0%; margin-left: 21%; margin-bottom: 
+                    20px; background-color: grey; height: 2px;">
+             
+                    <div class="certfication">
+                        <div class="certi1" style="margin-left: 90px;">
+
+                            <div class="img0"><img src="tc.jpg" style="margin-right: 5px; margin-bottom: 15px;"
+                                    width="16px" height="17px"></div>
+                            <h3 class="tcs" style="color: rgb(177, 148, 19); margin: 0%;">TCSion(Develop Soft Skills
+                                that Industry Demands)</h3>
+
+                        </div>
+                        <div class="certi1" style="margin-left: 90px;">
+
+                            <div class="img0"><img src="MS.jpg" style="margin-right: 5px; margin-bottom: 15px;"
+                                    width="16px" height="17px"></div>
+                            <h3 class="tcs" style="color: rgb(177, 148, 19); margin: 0%;">Microsoft( Essentials of Power
+                                BI)</h3>
+
+                        </div>
+                        <div class="certi1" style="margin-left: 90px;">
+
+                            <div class="img0"><img src="HR.webp" style="margin-right: 5px; margin-bottom: 15px;"
+                                    width="16px" height="17px"></div>
+                            <h3 class="tcs" style="color: rgb(177, 148, 19); margin: 0%;">Hacker Rank(HTML5 with JS and
+                                CSS3)</h3>
+
+                        </div>
+                        <div class="certi1" style="margin-left: 90px;">
+
+                            <div class="img0"><img src="HR.webp" style="margin-right: 5px; margin-bottom: 15px;"
+                                    width="16px" height="17px"></div>
+                            <h3 class="tcs" style="color: rgb(177, 148, 19); margin: 0%;">Hacker Rank(Python)</h3>
+
+                        </div>
+                        <div class="certi1" style="margin-left: 90px;">
+
+                            <div class="img0"><img src="HR.webp" style="margin-right: 5px; margin-bottom: 15px;"
+                                    width="16px" height="17px"></div>
+                            <h3 class="tcs" style="color: rgb(177, 148, 19); margin: 0%;">Hacker Rank(SQL)</h3>
+                        </div>
+                        <div class="certi1" style="margin-left: 90px;">
+
+                            <div class="img0"><img src="guvi.jpg" style="margin-right: 5px; margin-bottom: 15px;"
+                                    width="16px" height="17px"></div>
+                            <h3 class="tcs" style="color: rgb(177, 148, 19); margin: 0%;">GUVI(Python)</h3>
+                        </div>
+
+
+                        <!-- </div> -->
+                    </div>
+
+                    <!--  -->
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+.det hr{
+    display: flex;
+    width: 10px;
+}
+.dp img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}  
+
+.nam {
+   font-family: Ubuntu;
+}
+
+.nam  h1,h2,h4,p{
+    width: 92px;
+        display: flex;
+    font-family: Ubuntu;
+    margin: 0%;
+}
+
+.nam h5{
+    width: 126px;
+    display: flex;
+    font-family: Ubuntu;
+    }
+
+.adr .adr1 h1,h2,h4,h3,p{
+    width: 92px;
+        display: flex;
+    font-family: Ubuntu;
+    margin: 0%;
+}
+
+.skill h1,hr,input{
+    display: flex;
+    margin: 0%;
+    font-family: Ubuntu;
+width: 93px;
+}
+.skill p{
+    display: flex;
+    margin: 0%;
+    font-family: Ubuntu;
+width: 93px;
+margin-left: 0%;
+}
+
+.lang h1,hr,p,input{
+    display: flex;
+    margin: 0%;
+    font-family: Ubuntu;
+}
+
+
+
+ .main{
+    display: flex;
+flex-direction: row;
+width: 200px;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    height: 160%;
+    border-left: 2px solid rgb(69, 68, 68);
+}
+
+
+
+.right .education h1,hr{
+display: flex;
+}
+.right .edu1 p,h4{
+display: flex;
+font-family: Ubuntu;
+
+}
+
+.full{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.right h1,p,h3,hr,h6{
+    font-family: Ubuntu;
+    margin-bottom: 2%;
+    display: flex;
+    width: 100%;
+    margin-left: 108px
+}
+
+
+.img0{
+    display: flex;
+}
+.tcs{
+    display: flex;
+}
+.certi1{
+    display: flex;
+    flex-direction: row;
+}
